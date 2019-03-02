@@ -1,0 +1,27 @@
+/*
+==============================================
+animation
+=============================================
+*/
+#home-heading-1,
+#home-heading-2,
+#home-text,
+#home-btn,
+#arrow-down i{
+    animation-duration: 1.5s;
+}
+#home-heading-1{
+    animation-delay: 1s;
+}
+#home-heading-2{
+    animation-delay: 1.5s;
+}
+#home-text{
+    animation-delay: 2s;
+}
+#home-btn{
+    animation-delay: 2.5s;
+}
+#arrow-down i{
+    animation-delay: 3s;
+}

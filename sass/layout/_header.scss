@@ -1,0 +1,22 @@
+.header {
+    background-image: linear-gradient(to right bottom,
+        rgba(0, 0, 0, 0.64),
+        rgba(0, 0, 0, 0.74)),
+        url(../images/departments/cse/back-header.jpg);
+    background-size: cover;
+    background-position: center-center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+    &-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

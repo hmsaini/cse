@@ -1,0 +1,245 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+
+#home-heading h1 {
+    color: #fff;
+    font-size: 6.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h1 span {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+#home-text p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+
+.dark {
+    color: var(--color-grey-dark-1);
+}
+
+.white {
+    color: #fff;
+}
+
+.vertical-heading h5 {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -53px;
+}
+
+.vertical-heading h2 {
+    margin: 0 0 0 35px;
+
+}
+
+.vertical-heading h2 span {
+    color: var(--color-primary);
+}
+
+.horizontal-heading h2,
+.vertical-heading h2 {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+.horizontal-heading {
+    margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+    font-size: 16px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+    margin: 0;
+}
+
+.hod-heading h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $default-font-size;
+    font-family: Raleway;
+}
+
+/*
+==============================================
+                         Arrow down
+=============================================
+*/
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
+
+#arrow-down:hover,
+#arrow-down:focus {
+    color: var(--color-primary);
+}
+
+.hod-about {
+    padding-top: 1.4rem;
+    font-weight: 400;
+
+    &-list-item {
+        font-size: 1.4rem;
+        font-family: "Raleway";
+        list-style: none;
+    }
+}
+
+
+/*
+==============================================
+About-02
+=============================================
+*/
+// #about-02 {
+//     background-color: #f4f4f4;
+// }
+
+.about-item {
+    background-color: #fff;
+    padding: 4.8rem 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 45rem;
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 45px;
+    height: 3px;
+    background-color: var(--color-primary);
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+/*  Hover State  */
+.about-item:hover {
+    background-color: var(--color-primary);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-20px);
+}
+
+/* Smooth Transition */
+.about-item,
+.about-item i,
+.about-item hr {
+    transition: all .4s ease-in-out;
+}
+
+
+.dept {
+    box-shadow: var(--shadow-medium);
+
+    &-link {
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+.footer-nav {
+    list-style: none;
+    font-size: 1.4rem;
+    color: #aaa;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-nav__link:link,
+.footer-nav__link:visited {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: inline-block;
+    transition: all .2s;
+}
+
+.footer-nav__link:hover,
+.footer-nav__link:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: #aaa;
+    margin-top: 6rem;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,34 @@
+.section-about-us {
+    background-color: var(--color-grey-light-1);
+    padding: 12rem 0;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 7rem 2rem;
+    }
+}
+
+.section-stats {
+    background-image: linear-gradient(to right bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),
+        url(../images/departments/cse/stats-bg.jpg);
+    background-size: cover;
+    background-position: center-center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 12rem 0;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 8rem 0;
+    }
+}
+
+.section-links {
+    padding: 10rem 0;
+    background-color: var(--color-grey-light-1);
+}
+
+.footer {
+    padding: 10rem 0;
+    background-color: #101d2c;
+}
