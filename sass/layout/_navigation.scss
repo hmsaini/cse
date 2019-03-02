@@ -11,6 +11,9 @@ navigation
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
 
+    @media only screen and (max-width: $bp-medium) {
+        padding: 25px 12px;
+    }
 }
 
 .navbar.white-nav-top {
@@ -26,8 +29,12 @@ navigation
     padding: 13px 15px;
     font-size: 1.8rem;
 
+    // @media only screen and (max-width: $bp-medium) {
+    //     padding: 0 10px;
+    // }
 }
-#hov:hover{
+
+#hov:hover {
     color: var(--color-primary);
 }
 
@@ -82,13 +89,18 @@ ul.navbar-nav>li.nav-item>a.nav-link:focus {
 mobile menu
 =============================================
 */
+
 .navbar-header {
     position: relative;
 }
 
+#mobile-nav #mobile-nav-content .nav {
+    display: block;
+}
+
 #mobile-nav-open-btn {
     font-size: 30px;
-    color: var(--color-primary);
+    color: #f4c613;
     cursor: pointer;
     z-index: 2;
     position: absolute;
@@ -96,11 +108,15 @@ mobile menu
     top: 6px;
     /* hide mobile nav open button */
     display: none;
+
 }
 
 #mobile-nav {
+
     width: 100%;
-    height: 100%;
+    /* by default mobile nav will be hidden */
+    /* height:100%; */
+    height: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -115,9 +131,9 @@ mobile menu
 }
 
 #mobile-nav-close-btn {
-    font-family: "Ralewaya", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 70px;
-    color: var(--color-grey-dark-1);
+    color: #212226;
     font-weight: 400;
     cursor: pointer;
     position: absolute;
@@ -131,6 +147,7 @@ mobile menu
 }
 
 #mobile-nav-content {
+
     text-align: center;
     width: 100%;
     margin-top: 30px;
@@ -143,9 +160,10 @@ mobile menu
 }
 
 #mobile-nav a {
+
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    color: var(--color-grey-dark-1);
+    color: #212226;
     font-weight: 400;
     text-transform: uppercase;
     display: inline;
@@ -160,12 +178,57 @@ mobile menu
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-    color: var(--color-primary);
+    color: #f4c613;
     background: none;
 }
 
 /* mobile nav scroll spy active state */
 .white-nav-top #mobile-nav ul.nav>li.active>a {
-    color: var(--color-primary);
+    color: #f4c613;
     font-weight: 500;
+}
+
+/*
+==============================================
+bootstrap media queries
+=============================================
+*/
+/* Large devices (desktop & laptop) */
+@media(min-width:1200px) and (max-width:1299px) {
+
+    /* navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+}
+
+/* small devices (Portrait Tablets and small desktop) */
+@media(min-width:768px) and (max-width:991px) {
+
+    /* navigation */
+    .site-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/* extra small devices (landscape phones & portrait tablets) */
+@media(max-width:767px) {
+
+    /* navigation */
+    .navbar.white-nav-top {
+        padding: 20px 10px;
+    }
+}
+
+
+@media(max-width:767px) {
+
+    /* show mobile nav open btn */
+    #mobile-nav-open-btn {
+        display: block;
+        position: absolute;
+        right: 7%;
+        top: 20%;
+    }
+
 }

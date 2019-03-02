@@ -13,7 +13,7 @@
         rgba(0, 0, 0, 0.8)),
         url(../images/departments/cse/stats-bg.jpg);
     background-size: cover;
-    background-position: center-center;
+    background-position: center center;
     background-attachment: fixed;
     position: relative;
     padding: 12rem 0;
@@ -24,6 +24,12 @@
 }
 
 .section-links {
+    padding: 10rem 0;
+    // background-color: var(--color-grey-light-1);
+    background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%);
+}
+
+.section_PO_PEO{
     padding: 10rem 0;
     background-color: var(--color-grey-light-1);
 }

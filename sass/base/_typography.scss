@@ -12,6 +12,11 @@ p {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2.4rem;
+
+}
+
+p span {
+    color: var(--color-primary);
 }
 
 
@@ -22,6 +27,11 @@ p {
     text-transform: uppercase;
     margin: 0;
     display: inline-block;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 4rem;
+    }
+
 }
 
 #home-heading h1 span {
@@ -31,9 +41,17 @@ p {
 
 #home-text p {
     color: #fff;
-    font-size: 17px;
+    font-size: 1.9rem;
     font-weight: 100;
     margin: 8px 0 30px 0;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: $default-font-size;
+    }
 }
 
 .dark {
@@ -46,7 +64,7 @@ p {
 
 .vertical-heading h5 {
     color: var(--color-primary);
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
     text-transform: uppercase;
     word-spacing: 9px;
@@ -55,10 +73,29 @@ p {
     position: relative;
     top: 60px;
     left: -53px;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 1.3rem;
+    }
+
+    @media only screen and(max-width:$bp-small) {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        display: block;
+        position: static;
+        text-align: center;
+    }
 }
 
 .vertical-heading h2 {
     margin: 0 0 0 35px;
+
+    @media only screen and(max-width: $bp-small) {
+        margin: 0;
+    }
 
 }
 
@@ -68,9 +105,20 @@ p {
 
 .horizontal-heading h2,
 .vertical-heading h2 {
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 100;
-    line-height: 45px;
+    line-height: 4.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 3.6rem;
+        line-height: 3.5rem;
+    }
+
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 .horizontal-heading {
@@ -145,16 +193,28 @@ About-02
     padding: 4.8rem 3rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     min-height: 45rem;
+
+    @media only screen and (max-width: $bp-small) {
+        background-color: var(--color-primary);
+    }
 }
 
 .about-item i {
     font-size: 42px;
     margin: 0;
+
+    @media only screen and (max-width: $bp-small) {
+        color: #fff;
+    }
 }
 
 .about-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
+
+    @media only screen and (max-width: $bp-small) {
+        color: #fff;
+    }
 }
 
 .about-item hr {
@@ -167,6 +227,10 @@ About-02
 
 .about-item p {
     margin-top: 20px;
+
+    @media only screen and (max-width: $bp-small) {
+        color: #fff;
+    }
 }
 
 /*  Hover State  */

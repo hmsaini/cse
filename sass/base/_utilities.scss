@@ -20,10 +20,14 @@
 
 .u-margin-top-small {
     margin-top: 1.5rem !important;
+
+    @media only screen and (max-width: $bp-small) {
+        margin-top: 1rem !important;
+    }
 }
 
-.u-margin-top-big {
-    margin-top: 8rem !important;
+.u-margin-top-medium {
+    margin-top: 5rem !important;
 }
 
 .u-margin-top-huge {
