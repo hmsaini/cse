@@ -1,3 +1,12 @@
 .hod-img {
     min-height: 22rem;
 }
+
+.student-img{
+    min-height:26rem;
+    max-height: 26rem;
+
+    @media only screen and (max-width:$bp-small){
+        min-height:34rem;
+    }
+}

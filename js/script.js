@@ -51,6 +51,36 @@ $(function () {
         }
     });
 });
+
+/*==============================================
+TEAM STUDENTS
+================================================
+*/
+$(function () {
+    $("#team-students").owlCarousel({
+        items: 4,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayhoverpause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 2
+            },
+            768: {
+                items: 4
+            }
+        }
+    });
+});
 /* =============================================
      progress bar
 ===================================================

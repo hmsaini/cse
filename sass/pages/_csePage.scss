@@ -29,7 +29,14 @@
     background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%);
 }
 
-.section_PO_PEO{
+.section__students {
+    padding: 10rem 0;
+    background: #333;
+    background: -webkit-gradient(radial, center center, 120, center center, 900, from(#33495E), to(#2E2329));
+    background: -moz-radial-gradient(circle, #33495E, #2E2329);
+}
+
+.section_PO_PEO {
     padding: 10rem 0;
     background-color: var(--color-grey-light-1);
 }
