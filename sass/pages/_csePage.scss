@@ -1,47 +1,58 @@
 .section-about-us {
-    background-color: var(--color-grey-light-1);
-    padding: 12rem 0;
+  background-color: var(--color-grey-light-1);
+  padding: 12rem 0;
 
-    @media only screen and (max-width: $bp-medium) {
-        padding: 7rem 2rem;
-    }
+  @media only screen and (max-width: $bp-medium) {
+    padding: 7rem 2rem;
+  }
 }
 
 .section-stats {
-    background-image: linear-gradient(to right bottom,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)),
-        url(../images/departments/cse/stats-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    position: relative;
-    padding: 12rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/departments/cse/stats.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  padding: 12rem 0;
+  // opacity:.45;
 
-    @media only screen and (max-width: $bp-medium) {
-        padding: 8rem 0;
-    }
+  @media only screen and (max-width: $bp-medium) {
+    padding: 8rem 0;
+  }
 }
 
 .section-links {
-    padding: 10rem 0;
-    // background-color: var(--color-grey-light-1);
-    background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%);
+  padding: 10rem 0;
+  background-color: var(--color-grey-light-1);
+  // background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%);
 }
 
 .section__students {
-    padding: 10rem 0;
-    background: #333;
-    background: -webkit-gradient(radial, center center, 120, center center, 900, from(#33495E), to(#2E2329));
-    background: -moz-radial-gradient(circle, #33495E, #2E2329);
+  padding: 10rem 0;
+  background: #333;
+  background: -webkit-gradient(
+    radial,
+    center center,
+    120,
+    center center,
+    900,
+    from(#33495e),
+    to(#2e2329)
+  );
+  background: -moz-radial-gradient(circle, #33495e, #2e2329);
 }
 
 .section_PO_PEO {
-    padding: 10rem 0;
-    background-color: var(--color-grey-light-1);
+  padding: 10rem 0;
+  background-color: var(--color-grey-light-1);
 }
 
 .footer {
-    padding: 10rem 0;
-    background-color: #101d2c;
+  padding: 10rem 0;
+  background-color: #101d2c;
 }

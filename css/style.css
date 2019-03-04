@@ -83,7 +83,7 @@ p span {
 #home-heading h1 {
   color: #fff;
   font-size: 6.5rem;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
   margin: 0;
   display: inline-block; }
@@ -640,7 +640,7 @@ bootstrap media queries
     top: 20%; } }
 
 .header {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.74)), url(../images/departments/cse/back-header.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.74)), url(../images/departments/cse/cse-back2.jfif);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -815,7 +815,7 @@ stats
       padding: 7rem 2rem; } }
 
 .section-stats {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/departments/cse/stats-bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/departments/cse/stats.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -827,13 +827,13 @@ stats
 
 .section-links {
   padding: 10rem 0;
-  background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%); }
+  background-color: var(--color-grey-light-1); }
 
 .section__students {
   padding: 10rem 0;
   background: #333;
-  background: -webkit-gradient(radial, center center, 120, center center, 900, from(#33495E), to(#2E2329));
-  background: -moz-radial-gradient(circle, #33495E, #2E2329); }
+  background: -webkit-gradient(radial, center center, 120, center center, 900, from(#33495e), to(#2e2329));
+  background: -moz-radial-gradient(circle, #33495e, #2e2329); }
 
 .section_PO_PEO {
   padding: 10rem 0;
